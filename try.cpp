@@ -17,6 +17,15 @@ int withdrawl(){
 
 
 
+int deposit()
+{
+	int x;
+	cout<<"hi "<<name<<" enter your deposit : ";
+	cin>>x;
+	money += x;
+	cout<<"your money is : "<<money<<endl;
+}
+
 int main()
 {
 	
