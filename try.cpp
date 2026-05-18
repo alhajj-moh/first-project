@@ -11,7 +11,7 @@ int withdrawl(){
 	int y;
 	cout<<"hi "<<name<<" enter your withdrawl "<<endl;
 	cin>>y;
-	if(y >= money)
+	if(y <= money)
 	cout<<"ok"<<endl;
 	else
 	cout<<"no"<<endl;
