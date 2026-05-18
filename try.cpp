@@ -30,8 +30,10 @@ int deposit()
 
 int main()
 {
-	void minu( int a);
-	 show();
+	int m;
+	cout<<"choose \n1 to deposit\n2 to withdrawl\n3 to show balance\n";
+	cin>>m;
+	minu(m);
 	return 0;
 }
 void show(){
@@ -40,7 +42,10 @@ void show(){
 	
 }
 void minu( int a){
-	cout<<"Choose the thing you need :"<<endl;
-	cout<<" 1- to deposit monet\n 2- to take money\n 3- to show your accounts"<<endl;
-	cin>>a;
+	if (a == 1)
+	deposit();
+	else if(a ==2)
+	withdrawl();
+	else
+	show();
 }
